@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mZ1vweGg2WQscH3dh+XiQWws9F2rMKfMldFfIlh9sew=",
+  "Source": "PatientApp.WebApi",
+  "BasePath": "_content/PatientApp.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

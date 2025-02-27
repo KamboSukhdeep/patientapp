@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "PatientApp.WebApi.Controllers.V1.AuthenticationController",
+    "Method": "LoginAsync",
+    "RelativePath": "api/Authentication/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "PatientApp.UseCases.Authentication.Queries.LoginAuthenticationQuery.LoginAuthenticationQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientApp.WebApi.Controllers.V1.PatientController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Patient/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PatientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientApp.WebApi.Controllers.V1.PatientController",
+    "Method": "GetAsync",
+    "RelativePath": "api/Patient/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientApp.WebApi.Controllers.V1.PatientController",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/Patient/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientApp.WebApi.Controllers.V1.PatientController",
+    "Method": "GetAllWithPaginationAsync",
+    "RelativePath": "api/Patient/GetAllWithPagination",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientApp.WebApi.Controllers.V1.PatientController",
+    "Method": "InsertAsync",
+    "RelativePath": "api/Patient/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PatientApp.UseCases.Patient.Commands.CreatePatientCommand.CreatePatientCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PatientApp.WebApi.Controllers.V1.PatientController",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Patient/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "PatientApp.UseCases.Patient.Commands.UpdatePatientCommand.UpdatePatientCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
